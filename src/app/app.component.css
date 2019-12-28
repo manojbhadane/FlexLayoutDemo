@@ -1,0 +1,22 @@
+.container {
+    background-color: bisque;
+    padding: 20px;
+    display: flex;
+}
+
+.txt-first {
+    flex: 2;
+    order: 1;
+    margin-right: 10px;
+}
+
+.txt-second {
+    flex: 1;
+    order: 1;
+    margin-right: 10px;
+}
+
+.txt-third {
+    flex: 1;
+    order: 3;
+}
