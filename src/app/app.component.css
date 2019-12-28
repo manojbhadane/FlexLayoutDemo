@@ -63,3 +63,32 @@
     font-size: 20px;
     margin: auto;
 }
+
+
+.container-abc {
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.container-bc{
+    background-color: cadetblue;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.lay-a {
+    background-color: darkolivegreen;
+    flex: 1;
+}
+
+.lay-b {
+    flex: 1;
+    background-color: chocolate;
+}
+
+.lay-c {
+    flex: 1;
+    background-color: darkcyan;
+}
